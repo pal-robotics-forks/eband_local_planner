@@ -8,6 +8,31 @@ Changelog for package eband_local_planner
 * For Indigo, find Eigen if Eigen3 not found (`#21 <https://github.com/utexas-bwi/eband_local_planner/issues/21>`_)
 * Contributors: Jack O'Quin
 
+Forthcoming
+-----------
+* Add SYSTEM to external include dirs
+* Fix wrong pose transformation implementation
+* Convert to TF2 + new navigation API (for melodic)
+* Merge pull request `#26 <https://github.com/pal-robotics-forks/eband_local_planner/issues/26>`_ from mikaelarguedas/patch-1
+  update to use non deprecated pluginlib macro
+* update to use non deprecated pluginlib macro
+* Merge pull request `#25 <https://github.com/pal-robotics-forks/eband_local_planner/issues/25>`_ from utexas-bwi/piyushk/missing_reconf_dependency
+  Add missing dependency on exported config
+* Add missing dependency on exported config
+  This should prevent the error in this repo that was reported in
+* Add dynamic reconfigure (`#22 <https://github.com/pal-robotics-forks/eband_local_planner/issues/22>`_)
+  * Add dynamic reconfigure
+  * Remove unused parameters
+  - Remove k_int
+  - Remove k_diff
+  - Remove tolerance_timeout
+* 0.3.1
+* fix change log formatting problem (`#21 <https://github.com/pal-robotics-forks/eband_local_planner/issues/21>`_)
+* update change log for 0.3.1 (`#21 <https://github.com/pal-robotics-forks/eband_local_planner/issues/21>`_)
+* For Indigo, find Eigen if Eigen3 not found (`#21 <https://github.com/pal-robotics-forks/eband_local_planner/issues/21>`_)
+* Find Eigen3 and not Eigen to compile cleanly on Kinetic (`#21 <https://github.com/pal-robotics-forks/eband_local_planner/issues/21>`_)
+* Contributors: George Kouros, Jack O'Quin, Martin Günther, Mikael Arguedas, Piyush Khandelwal, Victor Lopez, Wijanarko Sukma Pamungkas
+
 0.3.0 (2015-03-31)
 ------------------
 * slow down trajectory controller while close to goal. closes `#19 <https://github.com/utexas-bwi/eband_local_planner/issues/19>`_.
