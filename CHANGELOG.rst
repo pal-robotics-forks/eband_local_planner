@@ -8,8 +8,8 @@ Changelog for package eband_local_planner
 * For Indigo, find Eigen if Eigen3 not found (`#21 <https://github.com/utexas-bwi/eband_local_planner/issues/21>`_)
 * Contributors: Jack O'Quin
 
-Forthcoming
------------
+0.3.2 (2019-09-23)
+------------------
 * Add SYSTEM to external include dirs
 * Fix wrong pose transformation implementation
 * Convert to TF2 + new navigation API (for melodic)
