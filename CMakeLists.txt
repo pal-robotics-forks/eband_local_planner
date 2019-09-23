@@ -27,7 +27,9 @@ if(NOT EIGEN3_FOUND)
 endif()
 
 include_directories(
-  include
+  include)
+include_directories(
+  SYSTEM
   ${Eigen3_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
 )
